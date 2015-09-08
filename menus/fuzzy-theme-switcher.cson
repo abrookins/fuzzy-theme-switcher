@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle fuzzy-theme-switcher'
+      'command': 'fuzzy-theme-switcher:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'fuzzy-theme-switcher'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'fuzzy-theme-switcher:toggle'
+        }
+      ]
+    ]
+  }
+]
