@@ -1,7 +1,7 @@
 {
   "name": "fuzzy-theme-switcher",
   "main": "./lib/fuzzy-theme-switcher",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Quickly switch color and UI themes",
   "keywords": [
     "theme",
